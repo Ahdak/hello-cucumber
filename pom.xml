@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>14</java.version>
+		<cucumber.version>6.2.1</cucumber.version>
 	</properties>
 
 	<dependencies>
@@ -59,15 +60,17 @@
 			<artifactId>cucumber-spring</artifactId>
 			<version>6.2.1</version>
 		</dependency>
-
-
-
-
-
-
-
-
-
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>${cucumber.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit-platform-engine -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit-platform-engine</artifactId>
+			<version>6.2.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
